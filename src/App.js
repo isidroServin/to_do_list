@@ -46,7 +46,6 @@ function App() {
         <NewTaskForm newTaskDescription={newTaskDescription}  eventHandler={eventHandler}  addTask = {addTask} />
         {
           lista.length === 0 ? <EmptyList/> : 
-           
           lista.map(t => {
             return <Card taskDescription= {t.task} taskInfo={t.id} doIt={taskDone} key={t.id}/>
           })

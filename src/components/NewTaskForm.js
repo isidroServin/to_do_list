@@ -11,10 +11,6 @@ function NewTaskForm(props) {
         margin: "0.5rem"
     };
     
-    // const [newTaskDescrip, setNewTaskDescrip] = useState("");
-    //   useEffect(() =>{ 
-    //   },[newTaskDescrip]);
-
     return (
         <div  style={bodyStyle} className="card">
             <div className="card-body">
